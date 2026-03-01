@@ -1,0 +1,27 @@
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0.7) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.dark .hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(17, 24, 39, 0.95) 0%,
+    rgba(17, 24, 39, 0.8) 40%,
+    rgba(17, 24, 39, 0.1) 100%
+  );
+}
+
+.map-bg {
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDPLzH65_PDuE-AGp3hKrDDCCHkmw8FnCldip2vJ30uJZX7Ig6LrIAK5zDc_DzyIVtHeW9WRy10PktgiABXPR7afdsAcX7EdtiT6Ztt0OXdNdRJFcMhaP0Zrq7joTpDAj_Yq5NfojB72udZoqpIOmY_GKCuVcp9VVsBl6zLqddJkXxct0EngWxN_yy_uCwpeTHl1AaJmDDKSGwYjMTMbVPlK405BJ52qy-aoo9rEcQaIvupN-B7SgJQIKITjKfdYOo5eKNVkMe3u8tF);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+}
+.dark .map-bg {
+  opacity: 0.1;
+  filter: invert(1);
+}

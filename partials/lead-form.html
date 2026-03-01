@@ -1,0 +1,64 @@
+<section class="py-16 bg-gray-100 dark:bg-gray-800">
+  <div class="container mx-auto px-4 lg:px-8">
+    <div class="bg-surface-light dark:bg-surface-dark rounded-3xl shadow-xl overflow-hidden p-6 lg:p-10 flex flex-col lg:flex-row gap-10">
+      <div class="lg:w-1/2 flex flex-col gap-5">
+        <div class="flex flex-col gap-4">
+          <input class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary dark:text-white" placeholder="Nombre" type="text" />
+          <input class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary dark:text-white" placeholder="Teléfono" type="tel" />
+          <input class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary dark:text-white" placeholder="Email" type="email" />
+
+          <select id="select-plantel" class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary text-gray-500 dark:text-gray-300">
+            <option value="">Plantel</option>
+          </select>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <select id="select-nivel" disabled class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary text-gray-500 dark:text-gray-300 disabled:opacity-60">
+            <option value="">Nivel</option>
+          </select>
+
+          <select id="select-modalidad" disabled class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary text-gray-500 dark:text-gray-300 disabled:opacity-60">
+            <option value="">Modalidad</option>
+          </select>
+        </div>
+
+        <div>
+          <select id="select-programa" disabled class="w-full bg-background-light dark:bg-gray-700 border-0 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary text-gray-500 dark:text-gray-300 disabled:opacity-60">
+            <option value="">Programa</option>
+          </select>
+        </div>
+
+        <button id="btn-informes" class="w-full bg-gray-700 hover:bg-gray-900 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-colors mt-2">
+          Quiero Informes
+          <span class="material-icons">chevron_right</span>
+        </button>
+
+        <p id="form-hint" class="text-xs text-gray-500 dark:text-gray-400"></p>
+      </div>
+
+      <div class="lg:w-1/2 relative rounded-xl overflow-hidden group">
+        <img
+          alt="University Campus Video Thumbnail"
+          class="w-full h-full object-cover"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQQrc599JV0WMni7o33AG1M1AftKhTh5IcF9E8nW2XET0zD-S2I47BDBq7MPDs6yTMOg-Mceoom0DW03-gzauntq3lYpMmAWiLNRJD-TaKS1FYjtVhEs-SKszJGAmA5c8KBNO2Gr9bHvQZcmjX7EYJdZJ6Tf22pqU17OyvBCfRHTlwrPHYTJlFIzjE2mfQdlROjrKDUWnWNyYUESvPI_fwqzQ5d0HUqpZ4N_hPNNvyIRriU3Y4fuMUYr_ntqO2zcW_jUjAKpusCQLI"
+        />
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/30 transition">
+          <button class="bg-white/20 hover:bg-white/40 backdrop-blur-sm rounded-full p-4 transition transform hover:scale-110">
+            <span class="material-icons text-white text-5xl">play_arrow</span>
+          </button>
+        </div>
+
+        <div class="absolute bottom-4 left-4 right-4 flex justify-between text-white text-sm">
+          <div class="flex items-center gap-2">
+            <span class="material-icons text-red-600">play_circle_filled</span>
+            <span>YouTube</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="material-icons text-sm">sticky_note_2</span>
+            <span>73</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,91 @@
+{
+  "planteles": [
+    {
+      "id": "iztapalapa",
+      "name": "Plantel Iztapalapa",
+      "niveles": [
+        {
+          "id": "bachillerato",
+          "name": "Bachillerato",
+          "modalidades": [
+            {
+              "id": "presencial",
+              "name": "Presencial",
+              "programas": [
+                { "id": "bach-general", "name": "Bachillerato General" },
+                { "id": "bach-tec", "name": "Bachillerato Tecnológico" }
+              ]
+            },
+            {
+              "id": "en-linea",
+              "name": "En línea",
+              "programas": [
+                { "id": "bach-general-online", "name": "Bachillerato General (Online)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tecnicas",
+          "name": "Carreras Técnicas",
+          "modalidades": [
+            {
+              "id": "presencial",
+              "name": "Presencial",
+              "programas": [
+                { "id": "tec-gastro", "name": "Técnico en Gastronomía" },
+                { "id": "tec-informatica", "name": "Técnico en Informática" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zaragoza",
+      "name": "Plantel Zaragoza",
+      "niveles": [
+        {
+          "id": "licenciaturas",
+          "name": "Licenciaturas",
+          "modalidades": [
+            {
+              "id": "presencial",
+              "name": "Presencial",
+              "programas": [
+                { "id": "lic-admin", "name": "Administración" },
+                { "id": "lic-derecho", "name": "Derecho" }
+              ]
+            },
+            {
+              "id": "ejecutiva",
+              "name": "Ejecutiva",
+              "programas": [
+                { "id": "lic-admin-ej", "name": "Administración (Ejecutiva)" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pachuca",
+      "name": "Enlace Pachuca",
+      "niveles": [
+        {
+          "id": "maestria",
+          "name": "Maestría",
+          "modalidades": [
+            {
+              "id": "ejecutiva",
+              "name": "Ejecutiva",
+              "programas": [
+                { "id": "mae-educacion", "name": "Maestría en Educación" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
