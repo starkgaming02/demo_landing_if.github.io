@@ -1,7 +1,7 @@
 import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
 
 createChat({
-  webhookUrl: "https://species-threaded-thousands-comfort.trycloudflare.com",
+  webhookUrl: "https://shadowlike-braylee-alodially.ngrok-free.dev/webhook/9a55f887-fab9-4f2c-ad56-890682e0108f/chat",
   webhookConfig: { method: "POST", headers: {} },
   target: "#n8n-chat",
   mode: "window",
