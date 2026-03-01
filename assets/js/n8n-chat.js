@@ -1,7 +1,7 @@
 import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
 
 createChat({
-  webhookUrl: "https://til-race-goal-reflect.trycloudflare.com",
+  webhookUrl: " https://northern-slide-left-charging.trycloudflare.com/webhook/9a55f887-fab9-4f2c-ad56-890682e0108f/chat",
   webhookConfig: { method: "POST", headers: {} },
   target: "#n8n-chat",
   mode: "window",
