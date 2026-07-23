@@ -1,0 +1,118 @@
+{
+  "level": "tecnicas",
+  "levelLabel": "Carreras Técnicas",
+  "programs": [
+    {
+      "id": "tecnica-asistente-educativo",
+      "title": "Asistente Educativo",
+      "icon": "child_care",
+      "description": "En tan solo 2 años podrás graduarte como Asistente Educativo. Estudia 2 horas diarias de lunes a jueves para graduarte en esta especialidad; serás la persona que colabore en la educación de los pequeños, brindando atención pedagógica y propiciando un ambiente favorable para su desarrollo integral. Durante tu capacitación aprenderás las características educativas de los niños y la correcta aplicación de tus conocimientos para lograr su desarrollo integral a través de: literatura, teatro infantil, actividades de estimulación temprana, idioma inglés, desarrollo óptimo del niño, actividades musicales, uso de material didáctico, organización de un CENDI, entre otras.",
+      "schedule": [
+        "Sistema Escolarizado (2 años)",
+        "Lunes a jueves de 8:00 a 10:00 hrs. o 10:00 a 12:00 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original y 2 copias)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificación oficial ante la S.E.P. con especialidad en Asistente Educativo"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/asistente_educativo.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "tecnica-asistente-educativo"
+      }
+    },
+    {
+      "id": "tecnica-asistente-educativo-sabatino-vespertino",
+      "title": "Asistente Educativo (Sabatino o Vespertino)",
+      "icon": "child_care",
+      "description": "En tan solo 18 meses podrás concluir tus estudios de la Carrera Técnica en Asistente Educativo. El Instituto Fleming tiene para ti esta opción para graduarte como Asistente Educativo, donde podrás estudiar y trabajar al mismo tiempo; serás la persona que colabore en la educación de los pequeños, brindando atención pedagógica y propiciando un ambiente favorable para su desarrollo integral. Durante tu capacitación aprenderás las características educativas de los niños y la correcta aplicación de tus conocimientos para lograr su desarrollo integral a través de: literatura, teatro infantil, actividades de estimulación temprana, idioma inglés, desarrollo óptimo del niño, actividades musicales, uso de material didáctico, organización de un CENDI, entre otras.",
+      "schedule": [
+        "Sistema Escolarizado (18 meses)",
+        "Sábados de 8:00 a 13:30 hrs.",
+        "Lunes a jueves de 15:00 a 17:00 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original y 2 copias)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificación oficial ante la S.E.P. con especialidad en Asistente Educativo",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/asistente_educativo.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "tecnica-asistente-educativo-sabatino-vespertino"
+      }
+    },
+    {
+      "id": "tecnica-gastronomia-sabatino-vespertino",
+      "title": "Gastronomía (Sabatino o Vespertino)",
+      "icon": "restaurant",
+      "description": "En tan solo 2 años podrás concluir tus estudios de la Carrera Técnica en Gastronomía. El Instituto Fleming tiene para ti esta opción que te permite estudiar y trabajar al mismo tiempo para graduarte en esta especialidad, donde obtendrás los conocimientos que te permitirán innovar y encontrar soluciones a los procesos de la gestión gastronómica a través de la cocina, la pastelería, la elaboración de bebidas alcohólicas y no alcohólicas y el servicio para eventos sociales y especiales. Nuestro programa educativo considera la metodología de enseñanza culinaria franco-suiza conocida como Método Pauli, la cual permite la comprensión de las técnicas y procedimientos más allá de las recetas y ha comprobado mundialmente su eficiencia. Estudiar por módulos intensivos te permitirá desarrollar un intelecto gastronómico profesional, con mayores oportunidades de trabajo y, sobre todo, una capacitación de excelencia.",
+      "schedule": [
+        "Sistema Escolarizado (2 años)",
+        "Sábados de 8:00 a 14:00 hrs.",
+        "Lunes a jueves de 8:00 a 10:00 hrs. o 10:00 a 12:00 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original y 2 copias)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificación oficial ante la S.E.P. con especialidad en: Preparación de alimentos, Preparación de bebidas, Repostería y Servicio al comensal",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/gastronomia.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "tecnica-gastronomia-sabatino-vespertino"
+      }
+    }
+  ]
+}

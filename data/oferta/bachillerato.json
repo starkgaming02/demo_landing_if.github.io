@@ -1,0 +1,240 @@
+{
+  "level": "bachillerato",
+  "levelLabel": "Bachillerato Tecnológico",
+  "programs": [
+    {
+      "id": "bachillerato-acuerdo-286",
+      "title": "Bachillerato Acuerdo 286 SEP",
+      "icon": "verified",
+      "description": "El Acuerdo 286 de la Secretaría de Educación Pública establece los lineamientos que regulan el derecho de las personas para acceder, permanecer y transitar por el sistema educativo nacional, a partir de la revalidación de estudios para alumnos que no cuentan con Certificado de Bachillerato.",
+      "featured": true,
+      "schedule": [
+        "Examen único",
+        "En línea: desde nuestra Plataforma Educativa",
+        "Presencial sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original)",
+        "Acta de Nacimiento (original)",
+        "CURP",
+        "Comprobante de domicilio",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico (para sistema escolarizado)"
+      ],
+      "benefits": [
+        "En tan sólo 8 meses contarás con tu certificado de Bachillerato",
+        "Podrás estudiar y trabajar al mismo tiempo",
+        "Esquema de pagos accesibles y becas de acuerdo a tus posibilidades",
+        "Podrás continuar tus estudios universitarios",
+        "Documento con validez oficial"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "externalLink": {
+        "label": "Consulta el Acuerdo 286 SEP",
+        "url": "https://www.sep.gob.mx/wb/sep1/acuerdo_286"
+      },
+      "image": "assets/img/acuerdo_286_sep.jfif",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-acuerdo-286"
+      }
+    },
+    {
+      "id": "bachillerato-asistente-educativo",
+      "title": "Bachillerato con Asistente Educativo",
+      "icon": "child_care",
+      "description": "Estudia tu Bachillerato en tan solo 3 años con la especialidad en Asistente Educativo. Estudiando 2 horas diarias como Asistente Educativo, serás la persona que colabore en la educación de los pequeños, brindando atención pedagógica y propiciando un ambiente favorable para su desarrollo integral. Durante tu capacitación aprenderás las características generales del niño y la correcta aplicación de las actividades que te permitan lograr su desarrollo integral a través de: literatura y teatro infantil, actividades de estimulación, inglés, desarrollo del niño, actividades musicales, primeros auxilios, material didáctico, organización de un CENDI, entre otras.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Lunes o viernes (bachillerato) de 8:00 a 12:30 hrs.",
+        "Lunes a jueves de 8:00 a 10:00 hrs. o 10:00 a 12:00 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original y 2 copias)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de Bachillerato con validez oficial de la SEP",
+        "Certificación oficial ante la S.E.P. como Asistente Educativo"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad de estudios universitarios",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/asistente_educativo.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-asistente-educativo"
+      }
+    },
+    {
+      "id": "bachillerato-gastronomia",
+      "title": "Bachillerato con Gastronomía",
+      "icon": "restaurant",
+      "description": "Estudia tu Bachillerato en tan solo 3 años con especialidad en Gastronomía y, con 2 horas diarias, obtén los conocimientos que te permitirán innovar y encontrar soluciones a los procesos de la gestión gastronómica a través de la cocina, la pastelería, la elaboración de bebidas alcohólicas y no alcohólicas y el servicio para eventos sociales. Nuestro programa educativo considera la metodología de enseñanza culinaria franco-suiza conocida como Método Pauli, la cual permite la comprensión de las técnicas y procedimientos más allá de las recetas y ha comprobado mundialmente su eficiencia. Estudiar por módulos intensivos te permitirá desarrollar un intelecto gastronómico profesional, con mayores oportunidades de trabajo y, sobre todo, una capacitación de excelencia.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Lunes o viernes (bachillerato) de 8:00 a 12:30 hrs.",
+        "Lunes a jueves de 8:00 a 10:00 hrs. o 10:00 a 12:00 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original y 2 copias)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de Bachillerato con validez oficial de la SEP",
+        "Certificaciones oficiales ante la S.E.P. en: Preparación de alimentos, Preparación de bebidas, Repostería y Servicio al Comensal",
+        "Diploma Institucional"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad de estudios universitarios",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/gastronomia.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-gastronomia"
+      }
+    },
+    {
+      "id": "bachillerato-computacion",
+      "title": "Bachillerato con Computación",
+      "icon": "computer",
+      "description": "Estudia tu Bachillerato con Computación en tan solo 3 años; al egresar podrás desempeñarte en organizaciones especializadas en soporte técnico, diseño y desarrollo de sistemas informáticos, aplicaciones y bases de datos, y resolverás problemas de hardware y software con base en las tecnologías y normatividad vigentes. Conocerás principios de programación, manejo de sistemas operativos, lenguajes de programación, operación de paquetes, bases de datos, análisis y diseño de sistemas, programación visual y administración de centros de cómputo.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Lunes a viernes de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de Bachillerato con validez oficial de la SEP",
+        "Certificaciones oficiales ante la S.E.P.",
+        "Diploma Institucional"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad de estudios universitarios",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/computacion.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-computacion"
+      }
+    },
+    {
+      "id": "bachillerato-puericultura",
+      "title": "Bachillerato con Puericultura",
+      "icon": "child_friendly",
+      "description": "Estudia tu Bachillerato en tan solo 3 años con la especialidad en Puericultura. Serás la persona que colabore en la educación de los pequeños, brindando atención pedagógica y propiciando un ambiente favorable para su desarrollo integral. Durante tu capacitación aprenderás las características generales del niño y la correcta aplicación de las actividades que te permitan lograr su desarrollo integral a través de: literatura y teatro infantil, actividades de estimulación, inglés, desarrollo del niño, actividades musicales, primeros auxilios, material didáctico, organización de un CENDI, entre otras. Además, convivirás en un agradable ambiente escolar, participando en diferentes actividades que complementarán tu vida profesional.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Lunes a viernes de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de Bachillerato con validez oficial de la SEP",
+        "Carta de Pasante",
+        "Diploma Institucional"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad de estudios universitarios",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/puericultura.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-puericultura"
+      }
+    },
+    {
+      "id": "bachillerato-turismo",
+      "title": "Bachillerato con Turismo",
+      "icon": "flight",
+      "description": "Estudia tu Bachillerato Tecnológico en tan solo 3 años con especialidad en Turismo, donde contarás con la capacitación suficiente para ejecutar y participar en procesos operativos, administrativos y comerciales de empresas turísticas, considerando estándares de calidad del servicio como eje en la relación huésped-turista. Con nuestros planes de estudio contarás con las herramientas necesarias para laborar en centros turísticos nacionales e internacionales, o en la creación de tu propia empresa relacionada con este sector.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Lunes a viernes de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de secundaria (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (menores de edad, presentar carta de autorización del Padre o Tutor)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de Bachillerato con validez oficial de la SEP",
+        "Carta de Pasante",
+        "Diploma Institucional"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad de estudios universitarios",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/turismo.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "bachillerato-turismo"
+      }
+    }
+  ]
+}

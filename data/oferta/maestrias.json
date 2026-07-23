@@ -1,0 +1,86 @@
+{
+  "level": "maestrias",
+  "levelLabel": "Maestrías",
+  "programs": [
+    {
+      "id": "maestria-educacion",
+      "title": "Maestría en Educación",
+      "icon": "school",
+      "description": "¿Te interesa aplicar los fundamentos teóricos de las ciencias de la educación en modelos de enseñanza y aprendizaje actuales? En el Instituto Fleming tenemos un sistema educativo que te permite diseñar estrategias, métodos y técnicas de enseñanza innovadores. Al concluir tus estudios podrás acceder a cargos directivos en instituciones educativas (públicas o privadas), impartir cátedra en materias relacionadas con la gestión educativa, elaborar proyectos educativos, así como ocupar cargos gubernamentales dedicados al diseño e implementación de políticas académicas.",
+      "schedule": [
+        "Sistema Escolarizado (1 año, 8 meses)",
+        "Sábados de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Licenciatura (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Grado Académico",
+        "Cédula de Grado",
+        "Diploma de Grado"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Bolsa de trabajo",
+        "Nuevos contactos profesionales",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Desarrollo de habilidades de liderazgo",
+        "Sistemas educativos de vanguardia"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/educacion.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "maestria-educacion"
+      }
+    },
+    {
+      "id": "maestria-derecho-penal",
+      "title": "Maestría en Derecho Penal",
+      "icon": "balance",
+      "description": "¿Te gustaría especializarte en la interpretación, integración y aplicación del Derecho Penal? En el Instituto Fleming te invitamos a formar parte de la Maestría que te permitirá aumentar tus oportunidades laborales y económicas a través del dominio de la rama del Derecho que se encarga de normar y concebir las capacidades punitivas, es decir, el castigo que se reserva el Estado para aquellos individuos que violentan las normas de convivencia, siempre a partir del principio de proporcionalidad e imparcialidad. Al concluir tu Maestría contarás con el conocimiento necesario para identificar, analizar y explicar el conjunto de normas jurídicas por medio de las cuales el Estado define las conductas u omisiones que constituyen delitos, así como las penas y/o medidas de seguridad para sancionar a quienes incurren en su comisión.",
+      "schedule": [
+        "Sistema Escolarizado (1 año, 8 meses)",
+        "Sábados de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Licenciatura (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Grado Académico",
+        "Cédula de Grado",
+        "Diploma de Grado"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Bolsa de trabajo",
+        "Nuevos contactos profesionales",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Desarrollo de habilidades de liderazgo",
+        "Sistemas educativos de vanguardia"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/derecho_penal.webp",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "maestria-derecho-penal"
+      }
+    }
+  ]
+}

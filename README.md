@@ -1,0 +1,107 @@
+# Instituto Fleming — Sitio Web
+
+Sitio web multi-página para el **Instituto Fleming**, construido como sitio estático (HTML + JavaScript vanilla con ES Modules + Tailwind CSS vía CDN) pensado para GitHub Pages, sin build step ni framework. Cada página comparte una misma "carcasa" (nav, footer, widget de chat) y compone su contenido en tiempo de ejecución a partir de fragmentos HTML ("partials") y datos en JSON.
+
+## Páginas del sitio
+
+- **`index.html`** — Home: hero, promociones, oferta educativa (con detalle por nivel en un modal), planteles, estadísticas y el formulario de contacto ("Resuelve tus dudas").
+- **`nosotros.html`** — Historia del instituto, misión/visión/valores y el equipo directivo.
+- **19 páginas de programa** (`bachillerato-gastronomia.html`, `licenciatura-derecho.html`, `ingenieria-industrial.html`, etc.) — una página dedicada por programa académico, con imagen principal, tabs verticales de detalle y botón de contacto. Ver la sección "Páginas de programa" más abajo.
+
+## ¿Cómo funciona?
+
+1. Cada página define su `<head>` (Tailwind CDN + configuración de tema, fuentes, `assets/css/styles.css`) y marca los puntos de inserción de cada sección con `data-include="partials/archivo.html"`.
+2. `assets/js/main.js` recorre esos elementos, hace `fetch` de cada partial (con `cache: "no-cache"` para evitar servir versiones desactualizadas mientras se itera) y lo inyecta como `innerHTML`. Luego resuelve, en este orden: qué link del nav debe verse "activo" según la página actual, el menú desplegable de redes sociales, el resto de secciones dependientes de datos (en paralelo), y por último el scroll a un `#ancla` si la URL trae una (debe ir al final para que la página ya tenga su alto real).
+3. `assets/js/render-sections.js` concentra toda la lógica de renderizado dinámico: lee los JSON de `data/` y llena las secciones, arma los menús desplegables del nav, los modales, los acordeones y las páginas de programa.
+4. `assets/js/n8n-chat.js` inicializa el widget de chat de `@n8n/chat` contra un webhook de n8n.
+
+Al depender de `fetch` para partials y datos, el sitio necesita servirse por HTTP (no `file://`) — ver "Ejecutar el proyecto localmente" más abajo.
+
+## Estructura del proyecto
+
+```
+demo_landing_if.github.io/
+├── index.html                       # Home
+├── nosotros.html                    # Página "Nosotros"
+├── <programa>.html × 19             # Una página por programa académico (ver más abajo)
+│
+├── partials/
+│   ├── nav.html                     # Barra de navegación: logo, Inicio, dropdown "Oferta Educativa",
+│   │                                 #   Nosotros, dropdown "Comunidad" (redes sociales), teléfono/email
+│   ├── hero.html                    # Hero del home
+│   ├── promo-cards.html             # Contenedor de tarjetas promocionales (#promo-grid)
+│   ├── oferta-educativa.html        # Contenedor de tarjetas por nivel (#oferta-grid) + modal de detalle
+│   ├── planteles.html               # Contenedor de tarjetas de planteles (#planteles-grid)
+│   ├── stats.html                   # Cita institucional + 3 estadísticas (contenido estático)
+│   ├── lead-form.html               # Formulario "Resuelve tus dudas" (id="lead-form") + video de YouTube Shorts
+│   ├── footer.html                  # Logo, contacto, redes sociales (layout de 3 columnas)
+│   ├── programa-detalle.html        # Skeleton compartido por las 19 páginas de programa
+│   ├── head.html                    # (sin usar; copia de referencia del <head>)
+│   └── nosotros/
+│       ├── hero.html                # Historia (1981, 45 años, +3,000 alumnos) + CTA
+│       ├── quienes-somos.html       # "¿Por qué estudiar en Instituto Fleming?" (4 tarjetas)
+│       ├── mision-vision.html       # Misión / Visión / Objetivos (cultura organizacional)
+│       ├── valores.html             # Los 7 valores institucionales (icon-grid)
+│       └── directivos.html          # Contenedor de directivos (#directivos-grid) + modal de semblanza
+│
+├── assets/
+│   ├── css/styles.css               # Overlay del hero, fondo de mapa, scroll suave
+│   ├── js/
+│   │   ├── main.js                  # Orquestador: inyecta partials, nav activo, scroll a #ancla
+│   │   ├── render-sections.js       # Toda la lógica de renderizado dinámico (ver detalle abajo)
+│   │   └── n8n-chat.js              # Widget de chat (@n8n/chat) — webhook temporal de ngrok
+│   └── img/                         # Imágenes locales (oferta, directivos, hero, planteles)
+│
+└── data/
+    ├── promos.json                  # Tarjetas promocionales del home
+    ├── oferta.json                  # Los 4 niveles educativos (teaser del home + menú del nav)
+    ├── oferta/
+    │   ├── bachillerato.json        # 6 programas
+    │   ├── licenciaturas.json       # 8 programas
+    │   ├── maestrias.json           # 2 programas
+    │   └── tecnicas.json            # 3 programas
+    ├── planteles.json               # Planteles (nombre, tag, descripción, dirección, teléfono, imagen)
+    ├── directivos.json              # Equipo directivo (nombre, cargo, foto, semblanza)
+    └── form-options.json            # (sin usar; árbol Plantel→Nivel→Modalidad→Programa, ver nota abajo)
+```
+
+## Oferta educativa: de dato a página
+
+La oferta educativa vive en **4 archivos JSON** bajo `data/oferta/` (uno por nivel), cada uno con un array `programs`. Cada programa trae: `id`, `title`, `icon` (Material Icon representativo, ya que no siempre hay fotografía real), `description`, `schedule`, `requiredDocuments`, `benefits`, `officialDocumentsObtained` (opcional), `planteles` (opcional — si falta, la pestaña "Planteles" se omite), `externalLink` (opcional, programas Acuerdo 286), `featured` (opcional), `image` y `cta`.
+
+Ese mismo dato se consume en **tres lugares** distintos de `render-sections.js`:
+
+1. **Home** (`renderOferta`) — 4 tarjetas simples por nivel (Bachillerato, Técnicas, Licenciaturas, Maestría), leídas de `data/oferta.json`. Al hacer clic se abre un modal (`renderOferta` + `openOfertaDetalle`) con un acordeón de los programas de ese nivel.
+2. **Menú del nav** (`renderOfertaNavMenu`) — al pasar el cursor sobre "Oferta Educativa" se despliega un submenú con los 4 niveles; al pasar el cursor sobre un nivel, se cargan bajo demanda sus programas desde `data/oferta/<nivel>.json` y cada uno enlaza a su página dedicada (`<id>.html`).
+3. **Páginas de programa** (`renderProgramaDetalle`) — cada una de las 19 páginas raíz (`bachillerato-gastronomia.html`, etc.) marca `<body data-nivel="..." data-programa-id="...">`; esa función lee esos atributos, busca el programa correspondiente y arma: imagen principal (con marco e iniciales/ícono como respaldo si la foto no existe — ver `HERO_IMAGE_TIERS`, tamaños ajustados según la resolución real de cada foto) y 5 pestañas verticales (Resumen, Modalidad y Horarios, Requisitos, Te ofrecemos, Planteles).
+
+## Ejecutar el proyecto localmente
+
+Al usar `fetch` para cargar partials y JSON, el sitio debe servirse por HTTP:
+
+```bash
+# Con Python
+python -m http.server 8080
+
+# o con Node
+npx serve .
+```
+
+Luego abre `http://localhost:8080`.
+
+## Cosas a tener en cuenta / pendientes
+
+- **`assets/js/n8n-chat.js`** apunta a un webhook de **ngrok temporal**; se ha tenido que actualizar varias veces (ver historial de commits). Debe reemplazarse por un endpoint estable antes de depender de él en producción.
+- El botón "Enviar" de `partials/lead-form.html` **no tiene backend conectado todavía** — no envía datos a ningún lado.
+- **`data/directivos.json`**: solo Miguel Ángel Reyes Casillas tiene fotografía real; el resto muestra iniciales. El director del Plantel Zaragoza sigue como `"Nombre pendiente"`. Todas las semblanzas (`bio`) están vacías (se muestra "Semblanza próximamente").
+- Algunas fotos de programas (`turismo.jpg`, `puericultura.jpg`, `psicopedagogia.jfif`) tienen resolución nativa baja y pueden verse un poco suaves incluso en el tamaño más chico — requeriría fotografía de mayor resolución para corregirse del todo.
+- **`assets/img/turismo_2.webp`** no está enlazado desde ningún programa (solo se usa `turismo.jpg`).
+- **`data/form-options.json`** y **`partials/head.html`** ya no se usan en ningún lado (quedaron de una versión anterior del formulario / del `<head>`). Se dejaron en el repo por si se retoman, pero no forman parte del flujo activo.
+
+## Tecnologías utilizadas
+
+- **HTML5** + **JavaScript vanilla (ES Modules)** — sin build step ni framework.
+- **Tailwind CSS** (vía CDN, con `tailwind.config` inline para colores/tipografía de marca).
+- **Material Icons / Material Symbols** y **Font Awesome** (incluye íconos de marca: TikTok, YouTube, Instagram, WhatsApp) para iconografía.
+- **Google Fonts (Montserrat)**.
+- **[@n8n/chat](https://www.npmjs.com/package/@n8n/chat)** para el widget de chat conectado a un flujo de automatización en n8n.

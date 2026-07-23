@@ -2,25 +2,25 @@
   "items": [
     {
       "title": "Bachillerato",
-      "href": "#",
+      "level": "bachillerato",
       "cta": "Conócelas",
       "image": "assets/img/bachillerato.webp"
     },
     {
       "title": "Carreras Técnicas",
-      "href": "#",
+      "level": "tecnicas",
       "cta": "Conócelas",
       "image": "assets/img/tecnica.webp"
     },
     {
       "title": "Licenciaturas",
-      "href": "#",
+      "level": "licenciaturas",
       "cta": "Conócelas",
       "image": "assets/img/licenciatura.webp"
     },
     {
       "title": "Maestría",
-      "href": "#",
+      "level": "maestrias",
       "cta": "Conócelas",
       "image": "assets/img/maestria.webp"
     }

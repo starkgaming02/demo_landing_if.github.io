@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-overlay {
   background: linear-gradient(
     90deg,

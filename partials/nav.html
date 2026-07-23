@@ -2,7 +2,7 @@
   <div class="container mx-auto px-4 lg:px-8">
     <div class="flex justify-between items-center h-20">
       <div class="flex items-center">
-        <a class="flex items-center gap-2" href="#">
+        <a class="flex items-center gap-2" href="index.html">
           <span class="material-icons text-primary text-4xl">school</span>
           <div class="flex flex-col">
             <span class="text-xl font-bold tracking-tight text-primary leading-none">INSTITUTO</span>
@@ -12,15 +12,88 @@
       </div>
 
       <div class="hidden md:flex space-x-8 items-center">
-        <a class="relative font-semibold text-primary after:content-[''] after:absolute after:left-0 after:-bottom-7 after:w-full after:h-1 after:bg-primary" href="#">Admisiones</a>
-        <a class="font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Oferta Educativa</a>
-        <a class="font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Nosotros</a>
-        <a class="font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Comunidad</a>
+        <a data-nav-link class="font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="index.html">Inicio</a>
+
+        <div id="oferta-nav-dropdown" class="relative" data-dropdown>
+          <button
+            type="button"
+            data-dropdown-trigger
+            aria-haspopup="true"
+            aria-expanded="false"
+            class="inline-flex items-center gap-1 rounded-md px-1 py-1 font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors"
+          >
+            Oferta Educativa
+            <span class="material-icons text-base transition-transform duration-200" data-dropdown-caret>expand_more</span>
+          </button>
+
+          <div data-dropdown-panel class="hidden absolute left-0 top-full z-50 pt-3">
+            <div id="oferta-nav-menu" class="w-64 bg-white dark:bg-surface-dark rounded-xl shadow-xl border border-gray-100 dark:border-gray-700 py-2">
+              <p class="px-4 py-3 text-xs text-gray-400">Cargando…</p>
+            </div>
+          </div>
+        </div>
+
+        <a data-nav-link class="font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="nosotros.html">Nosotros</a>
+
+        <div id="comunidad-nav-dropdown" class="relative" data-dropdown>
+          <button
+            type="button"
+            data-dropdown-trigger
+            aria-haspopup="true"
+            aria-expanded="false"
+            class="inline-flex items-center gap-1 rounded-md px-1 py-1 font-medium text-secondary-text-light dark:text-secondary-text-dark hover:text-primary dark:hover:text-primary transition-colors"
+          >
+            Comunidad
+            <span class="material-icons text-base transition-transform duration-200" data-dropdown-caret>expand_more</span>
+          </button>
+
+          <div data-dropdown-panel class="hidden absolute left-0 top-full z-50 pt-3">
+            <div class="w-56 bg-white dark:bg-surface-dark rounded-xl shadow-xl border border-gray-100 dark:border-gray-700 py-2">
+              <a
+                href="https://www.tiktok.com/@institutofleming.cdmx"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700/60 hover:text-primary dark:hover:text-primary transition-colors"
+              >
+                <i class="fab fa-tiktok text-lg w-5 text-center flex-shrink-0"></i> TikTok
+              </a>
+              <a
+                href="https://www.youtube.com/@INSTITUTOFLEMINGOFICIALCDMX"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700/60 hover:text-primary dark:hover:text-primary transition-colors"
+              >
+                <i class="fab fa-youtube text-lg w-5 text-center flex-shrink-0"></i> YouTube
+              </a>
+              <a
+                href="https://www.instagram.com/institutofleming_oficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700/60 hover:text-primary dark:hover:text-primary transition-colors"
+              >
+                <i class="fab fa-instagram text-lg w-5 text-center flex-shrink-0"></i> Instagram
+              </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5215523078269&amp;text&amp;type=phone_number&amp;app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700/60 hover:text-primary dark:hover:text-primary transition-colors"
+              >
+                <i class="fab fa-whatsapp text-lg w-5 text-center flex-shrink-0"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="hidden lg:flex items-center gap-2 text-secondary-text-light dark:text-secondary-text-dark">
-        <span class="material-icons text-primary">phone_in_talk</span>
-        <span class="font-semibold">800 123 4567</span>
+        <span class="material-icons text-primary text-xl">phone_in_talk</span>
+        <div class="flex flex-col leading-tight">
+          <span class="font-semibold text-xs">
+            <a href="tel:5556862752" class="hover:text-primary transition-colors">5556862752</a><span class="text-gray-400">/</span><a href="tel:5556858511" class="hover:text-primary transition-colors">5556858511</a>
+          </span>
+          <a href="mailto:info@institutofleming.edu.mx" class="text-[10px] hover:text-primary transition-colors">info@institutofleming.edu.mx</a>
+        </div>
       </div>
 
       <button class="md:hidden p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700" aria-label="Abrir menú">

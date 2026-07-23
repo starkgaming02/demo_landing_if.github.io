@@ -1,0 +1,338 @@
+{
+  "level": "licenciaturas",
+  "levelLabel": "Licenciaturas",
+  "programs": [
+    {
+      "id": "licenciatura-experiencia-profesional-286",
+      "title": "Licenciatura por Experiencia Profesional (Acuerdo 286 SEP)",
+      "icon": "verified",
+      "description": "El Acuerdo 286 de la Secretaría de Educación Pública establece los lineamientos que regulan el derecho de las personas para acceder, permanecer y transitar por el Sistema Educativo Nacional, a partir de la titulación por experiencia profesional para alumnos que no cuentan con título académico. Aplica para: Licenciatura en Derecho, Licenciatura en Administración, Licenciatura en Pedagogía, Licenciatura en Mercadotecnia, Licenciatura en Diseño Gráfico, Licenciatura en Psicopedagogía e Ingeniería Industrial. No requiere ningún tipo de estudio escolarizado, ya que el alumno cuenta con la experiencia laboral y profesional para sustentar el título académico.",
+      "featured": true,
+      "schedule": [
+        "Inscripciones mensuales"
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (con vigencia no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)"
+      ],
+      "officialDocumentsObtained": [
+        "Dictamen Oficial (2 meses después de la inscripción)",
+        "Título Profesional Electrónico (6 meses después del Dictamen Oficial)",
+        "Título Institucional impreso y digital",
+        "Cédula Profesional (con costo adicional)"
+      ],
+      "benefits": [
+        "Revalidación de estudios (para carreras truncas)",
+        "Validez oficial de tu experiencia profesional",
+        "Acceso a mejores ofertas laborales",
+        "Crecer dentro de tu empresa",
+        "Reconocimiento familiar, social y laboral"
+      ],
+      "contact": {
+        "name": "Dr. Miguel Ángel Reyes Casillas",
+        "whatsapp": "55 6872-6942",
+        "email": "dr.miguelreyes@institutofleming.edu.mx"
+      },
+      "externalLink": {
+        "label": "Consulta el Acuerdo 286 SEP",
+        "url": "https://www.sep.gob.mx/wb/sep1/acuerdo_286"
+      },
+      "image": "assets/img/acuerdo_286_sep.jfif",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-experiencia-profesional-286"
+      }
+    },
+    {
+      "id": "licenciatura-derecho",
+      "title": "Licenciatura en Derecho",
+      "icon": "gavel",
+      "description": "¿Te interesa comprender y dominar la ciencia jurídica? Con nuestro sistema educativo comprenderás los fundamentos teóricos de la legalidad y el análisis jurídico; desarrollaremos en ti las habilidades para identificar, analizar y explicar las situaciones jurídicas que se te presenten. Serás capaz de emitir, de manera oral o escrita, soluciones justificadas en el ámbito de la procuración y administración de justicia ante las autoridades locales, federales e internacionales.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/licenciatura_derecho.webp",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-derecho"
+      }
+    },
+    {
+      "id": "licenciatura-administracion",
+      "title": "Licenciatura en Administración",
+      "icon": "business_center",
+      "description": "¿Te gustaría aprender la funcionalidad y los procesos internos de una empresa? El Instituto Fleming es para ti. Contamos con un sistema educativo que te permite comprender de manera práctica la operación de las áreas funcionales de las empresas para el óptimo manejo de sus recursos. Al estudiar esta carrera desarrollarás las competencias y habilidades necesarias para gestionar de manera óptima los recursos humanos, materiales, financieros y tecnológicos de la organización, creando sinergia en los equipos de trabajo y desarrollando tus habilidades de liderazgo para alcanzar las metas que se han establecido.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/licenciatura_administracion.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-administracion"
+      }
+    },
+    {
+      "id": "licenciatura-pedagogia",
+      "title": "Licenciatura en Pedagogía",
+      "icon": "menu_book",
+      "description": "¿Te gustaría contribuir al desarrollo del Sistema Educativo Nacional? En la Licenciatura en Pedagogía formamos a los profesionales expertos en el proceso de enseñanza-aprendizaje y gestión educativa, encargados de analizar, planificar y mejorar los procesos de enseñanza; una labor que va más allá de dar clases en el aula, ya que diseñarás planes de estudio, crearás estrategias didácticas y programas de capacitación para personal de empresas e instituciones educativas. Nuestros planes de estudio desarrollarán tus habilidades cognitivas y lúdicas para desempeñarte en procesos de evaluación, diagnóstico, prevención y/o intervención para atender necesidades educativas específicas. Asimismo, puedes trabajar en el ámbito escolar (como docente, orientador o directivo), en empresas (en Recursos Humanos y capacitación), en tecnología educativa (diseño instruccional) y en proyectos socioculturales (ONG, museos y pedagogía hospitalaria), entre otros.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/pedagogia.jpg",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-pedagogia"
+      }
+    },
+    {
+      "id": "licenciatura-mercadotecnia",
+      "title": "Licenciatura en Mercadotecnia",
+      "icon": "campaign",
+      "description": "¿Te gustaría desarrollarte en una de las carreras con mayor campo de acción en la actualidad? La Licenciatura en Mercadotecnia es una gran opción para ti. Nuestro sistema te permite generar inteligencia de mercados mediante técnicas avanzadas de investigación para la toma de decisiones en la empresa. Aprenderás a diseñar estrategias de mercadotecnia innovadoras y rentables para una organización, así como a entender los factores sustentables para la sociedad. Tu ámbito de competencia serán las agencias de publicidad y promoción, la investigación de mercados, la dirección de mercadotecnia de cualquier empresa y/o las agencias de relaciones públicas, entre muchas otras.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/mercadotecnia.webp",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-mercadotecnia"
+      }
+    },
+    {
+      "id": "licenciatura-diseno-grafico",
+      "title": "Licenciatura en Diseño Gráfico",
+      "icon": "palette",
+      "description": "¿Te gusta desarrollar tu lado creativo a través de tecnologías y software especializados? Entonces la Licenciatura en Diseño Gráfico es para ti. El Instituto Fleming te permite desarrollar tus habilidades para diseñar estrategias integrales de comunicación visual, generar imagen e identidad de organizaciones, diseñar productos, empaques, envases, servicios y campañas publicitarias, así como manejar diferentes formatos electrónicos e impresos. Tu ámbito laboral será en las agencias de publicidad y los departamentos creativos de las empresas; participarás en la producción de campañas publicitarias, marketing digital y diseño editorial, entre otros.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/diseño_grafico.webp",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-diseno-grafico"
+      }
+    },
+    {
+      "id": "licenciatura-psicopedagogia",
+      "title": "Licenciatura en Psicopedagogía",
+      "icon": "psychology",
+      "description": "¿Te gustaría apoyar a tus alumnos con necesidades educativas especiales a través de estrategias que mejoren sus procesos de aprendizaje? En el Instituto Fleming te estamos esperando. Nuestros planes de estudio desarrollarán tus habilidades cognitivas y lúdicas para desempeñarte en procesos de evaluación, diagnóstico, prevención y/o intervención para atender necesidades educativas específicas. Asimismo, participarás en procesos de orientación y acompañamiento personal, familiar y social, y/o en consultoría para escuelas y organizaciones. Tu ámbito socio-comunitario será en los sectores de educación y asesoría para adultos, atención psicopedagógica en el ámbito deportivo, asesorías de programas de reinserción socio-laboral, entre otras.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/psicopedagogia.jfif",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "licenciatura-psicopedagogia"
+      }
+    },
+    {
+      "id": "ingenieria-industrial",
+      "title": "Ingeniería Industrial",
+      "icon": "engineering",
+      "description": "Si tienes un pensamiento lógico y disfrutas analizar datos, secuencias o procesos, te invitamos a inscribirte en la Ingeniería Industrial, donde desarrollarás tus conocimientos en matemáticas, física, química, manejo de lenguajes de programación y computación, entre otros. El ingeniero industrial genera la optimización de recursos de cualquier organización, reorganiza el proceso de trabajo de plantas industriales, mejora la distribución de las áreas de trabajo y disminuye el mantenimiento y los costos de producción de las empresas, con el objetivo de generar mayor rendimiento de los recursos humanos, económicos y tecnológicos. Tu ámbito laboral se desarrolla en una gran variedad de entornos como fábricas, hospitales, organizaciones de servicios y empresas de consultoría; los ingenieros industriales pueden especializarse en sectores como los servicios sanitarios, el transporte o las finanzas.",
+      "schedule": [
+        "Sistema Escolarizado (3 años)",
+        "Sabatino de 8:00 a 13:30 hrs."
+      ],
+      "requiredDocuments": [
+        "Certificado de Bachillerato (original)",
+        "Acta de Nacimiento (original y copia con antigüedad no mayor a 6 meses)",
+        "CURP",
+        "Comprobante de domicilio (vigencia no mayor a 3 meses)",
+        "INE (copia a color por ambos lados)",
+        "Certificado médico"
+      ],
+      "officialDocumentsObtained": [
+        "Certificado de término de estudios",
+        "Carta Pasante",
+        "Título Profesional (digital)",
+        "Cédula Profesional (opcional)",
+        "Diploma de Generación"
+      ],
+      "benefits": [
+        "Esquema de becas y pagos accesibles",
+        "Continuidad para estudios de posgrado",
+        "Bolsa de trabajo",
+        "Asesoría Psicológica y Pedagógica",
+        "Biblioteca",
+        "Servicio Social",
+        "Prácticas Profesionales"
+      ],
+      "planteles": ["Plantel Iztapalapa", "Plantel Zaragoza"],
+      "image": "assets/img/ingenieria_industrial.webp",
+      "cta": {
+        "label": "Contáctanos",
+        "action": "open-lead-form",
+        "preselect": "ingenieria-industrial"
+      }
+    }
+  ]
+}
