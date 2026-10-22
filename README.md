@@ -31,7 +31,7 @@ demo_landing_if.github.io/
 │
 ├── partials/
 │   ├── nav.html                     # Barra de navegación: logo, Inicio, dropdown "Oferta Educativa",
-│   │                                 #   Nosotros, dropdown "Comunidad" (redes sociales), teléfono/email
+│   │                                 #   Nosotros, dropdown "Comunidad" (redes sociales) y menú de celular
 │   ├── hero.html                    # Hero del home
 │   ├── promo-cards.html             # Contenedor de tarjetas promocionales (#promo-grid)
 │   ├── certificacion.html           # Franja animada red CONOCER + Universidad Fleming IMIFLE
@@ -39,7 +39,7 @@ demo_landing_if.github.io/
 │   ├── planteles.html               # Contenedor de tarjetas de planteles (#planteles-grid)
 │   ├── stats.html                   # Cita institucional + 3 estadísticas (contenido estático)
 │   ├── lead-form.html               # Formulario "Resuelve tus dudas" (id="lead-form") + video de YouTube Shorts
-│   ├── footer.html                  # Logo, contacto, redes sociales (layout de 3 columnas)
+│   ├── footer.html                  # Logo, redes sociales y enlaces legales (aviso de privacidad, reglamentos)
 │   ├── aviso-privacidad.html        # Contenido del modal del aviso de privacidad (versión resumida)
 │   ├── programa-detalle.html        # Skeleton compartido por las 19 páginas de programa
 │   └── nosotros/
@@ -119,6 +119,7 @@ Luego abre `http://localhost:8080`.
 - **`data/form-options.json`** ya no se usa en ningún lado (quedó de una versión anterior del formulario). Se dejó en el repo por si se retoma, pero no forma parte del flujo activo.
 - **`assets/img/logo-red-conocer.webp`** es el logo oficial que entregó el cliente ("red Conocer de prestadores de servicio, Entidad de Certificación y Evaluación").
 - **`assets/img/mascota.webp`** es el busto de la mascota "Alex Fleming" para el botón del chat (192 × 192, fondo transparente), recortado de la propuesta de mascota del cliente. Si el archivo falta, el botón muestra un ícono.
+- **`assets/img/mascota-animada.webp`** es la versión animada del mismo busto (176 × 176, WebP animado con transparencia, ~8 s por vuelta: voltea a un lado y al otro y mira de reojo). Es la que usa el botón; con "reducir movimiento" se muestra `mascota.webp`.
 
 ## Tecnologías utilizadas
 
